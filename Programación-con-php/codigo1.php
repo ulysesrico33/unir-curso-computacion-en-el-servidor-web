@@ -26,6 +26,8 @@ function fx($x)
 # Pregunta 2
 
 $arrayP2 = array(3,0,2,5,-1,4,1);
-print_r(fx($arrayP2 ));
+foreach ($arrayP2 as $e) {
+    echo "$e ";
+  }
 
 ?>
