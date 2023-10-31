@@ -19,7 +19,13 @@ function fx($x)
     return $x;
 }
 
-$arrayTest = array(6,1,9,3,5);
-print_r(fx($arrayTest));
+?>
+
+<?php
+
+# Pregunta 2
+
+$arrayP2 = array(3,0,2,5,-1,4,1);
+print_r(fx($arrayP2 ));
 
 ?>
