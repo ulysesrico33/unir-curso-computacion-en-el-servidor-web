@@ -10,3 +10,4 @@ En teoría con lo siguiente debería poder debuguear php en vs code, pero aún n
  - https://marketplace.visualstudio.com/items?itemName=xdebug.php-debug
  - https://code.visualstudio.com/docs/languages/php
  - https://docs.devsense.com/en/vscode/debug  (Este más o menos me guió, pero necesito entender bien)
+ - https://www.espai.es/blog/2018/09/como-depurar-codigo-php-con-visual-studio-code/ (Creo este igual puede servir)
