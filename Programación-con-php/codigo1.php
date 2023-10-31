@@ -14,11 +14,12 @@ function fx($x)
                 }
         } 
     
-    }while ($x-- > 0);
+    }while ($cont);
 
     return $x;
 }
-$array_test = array(8,10,3,5,6);
-fx($array_test);
+
+$arrayTest = array(6,1,9,3,5);
+print_r(fx($arrayTest));
 
 ?>
