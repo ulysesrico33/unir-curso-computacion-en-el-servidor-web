@@ -1,5 +1,7 @@
 <?php
 
+# Este código estoy seguro es Quick Sort pues tiene pivote
+
 function fx($x)
 {
    $loe=$gt =array();
