@@ -10,6 +10,7 @@ function fx($x)
         { 
             if($x[$i] > $x[$i+1])
                 {
+                    # Usa una lista para modificar el arreglo original
                     list($x[$i+1],$x[$i]) = array($x[$i],$x[$i+1]);
                     $cont = true;
                     $timesToArrange++;
