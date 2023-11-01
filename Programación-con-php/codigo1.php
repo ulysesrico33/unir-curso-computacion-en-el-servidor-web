@@ -25,7 +25,7 @@ function fx($x)
 
 # Pregunta 2
 
-$arrayP2 = array(3,0,2,5,-1,4,1);
+$arrayP2 = fx(array(3,0,2,5,-1,4,1));
 foreach ($arrayP2 as $e) {
     echo "$e ";
   }
