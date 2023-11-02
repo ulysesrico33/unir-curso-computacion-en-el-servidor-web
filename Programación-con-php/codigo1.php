@@ -2,7 +2,6 @@
 
 function fx($x)
 {
-    $timesToArrange=0;
     do { 
 
         $cont =false;
@@ -13,14 +12,13 @@ function fx($x)
                     # Usa una lista para modificar el arreglo original
                     list($x[$i+1],$x[$i]) = array($x[$i],$x[$i+1]);
                     $cont = true;
-                    $timesToArrange++;
+                
                 }
         } 
     
         #cont = false si el arreglo ya está ordenado
     }while ($cont);
     
-    echo "Veces que se reinició el orden : $timesToArrange \n";
     return $x;
 }
 
