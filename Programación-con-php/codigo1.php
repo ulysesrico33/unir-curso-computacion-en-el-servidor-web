@@ -5,7 +5,8 @@ function fx($x)
     do { 
 
         $cont =false;
-        for($i = 0, $c=count($x)-1; $i < $c ; $i++)
+        $c=count($x)-1;
+        for($i = 0; $i < $c ; $i++)
         { 
             if($x[$i] > $x[$i+1])
                 {
